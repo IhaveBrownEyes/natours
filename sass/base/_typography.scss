@@ -49,7 +49,7 @@ body {
     font-size: 3.5rem;
     text-transform: uppercase;
     font-weight: 700;
-    display: inline;
+    display: inline-block;
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     -webkit-background-clip: text;
     color: transparent;
@@ -65,7 +65,7 @@ body {
     }
 
     &:hover {
-        transform: skewX(15deg) skewY(2deg) scale(1.1);
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
         text-shadow: .5rem 1rem 2rem rgba($color-black, .2);         
     }
 }
